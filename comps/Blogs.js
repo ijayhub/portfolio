@@ -8,7 +8,7 @@ const Blogs = () => {
 			<div className={styles.sectionBlog} id="blogs">
 				<div>
 					<h2 className={styles.blogHeading}>Other noteworthy projects</h2>
-					<Link href='ijaycent.hashnode.dev' target='_blank'>
+					<Link href='https://ijaycent.hashnode.dev' target='_blank'>
 						<p className={styles.blogPara}>view the achieve</p>
 					</Link>
 					<div className={styles.blogContainer}>
