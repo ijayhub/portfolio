@@ -1,0 +1,45 @@
+.sectionBlog{
+    @apply mt-16 lg:mt-60 
+}
+.blogHeading{
+    color:#cdd7f6;
+    @apply lg:text-4xl font-bold text-center capitalize
+}
+.blogPara{
+    @apply text-purple-500 text-center capitalize mt-2 mb-8
+}
+.blogContainer{
+    @apply grid grid-cols-1 md:grid-cols-3 gap-6 px-4 lg:px-0
+}
+
+.blogCard{
+    background-color: #112340;
+    height:240px;
+    @apply shadow-2xl rounded-xl p-6 w-full
+
+}
+
+.blogLink{
+    background-color: #112340;
+    color:#cdd7f6;
+    @apply flex justify-end items-end mb-2
+}
+.blogTitle{
+    background-color: #112340;
+    color:#cdd7f6;
+    
+    @apply font-bold 
+}
+.blogParas{
+    background-color:#112340;
+    color: #697692;
+    @apply mb-4 font-semibold pt-2 pb-4
+}
+.chart{
+    background-color:#112340;
+    color: #697692;
+    @apply flex justify-between items-center font-thin
+}
+.react{
+    background-color:#112340;
+}

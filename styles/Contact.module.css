@@ -1,0 +1,43 @@
+.contactContainer{
+    @apply mt-16 lg:mt-48 flex flex-col justify-center items-center leading-8 px-3 lg:px-0
+}
+.contactHead{
+    @apply lg:text-2xl text-slate-300 
+}
+.numContact{
+    @apply text-purple-500
+}
+.contactText{
+    @apply lg:text-4xl text-purple-500 font-bold capitalize
+}
+.contactPara{
+    @apply text-slate-200 text-center
+}
+.contactLink{
+    @apply text-purple-500 hover:text-slate-200
+}
+.contactBtn{
+    @apply flex justify-center items-center border-2 border-purple-500 mt-6 mb-4 px-3 py-1 text-slate-400 rounded-xl font-mono 
+}
+.btnContact{
+    @apply border-2 border-purple-500  
+
+}
+/* ....................................footer.......................... */
+.footer{
+    @apply flex justify-center items-center lg:mt-48 bg-black
+}
+.footerPara{
+    @apply text-slate-400 hover:text-purple-500 font-mono bg-transparent
+}
+.footerLink{
+    @apply bg-transparent
+}
+    @media only screen and (max-width:600px){
+        .footerPara{
+            font-size:12px;
+        }
+        .contactPara{
+            font-size: 15px;
+        }
+    }

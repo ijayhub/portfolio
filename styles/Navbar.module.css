@@ -1,0 +1,35 @@
+.nav{
+  @apply flex justify-between items-center p-2 lg:p-6 shadow-2xl font-mono
+}
+.navMenu{
+  @apply md:hidden 
+}
+.navButton{
+  @apply p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border
+}
+
+.ul{
+  @apply flex items-center 
+}
+.logo{
+  @apply text-xs lg:text-3xl text-purple-500 font-bold px-2
+}
+.navHead{
+  @apply border-4 border-purple-500/100 p-2 rounded-full
+}
+.num{
+  @apply  text-purple-500 hover:text-slate-400 
+}
+.list{
+  @apply text-slate-400 hover:text-purple-500 mr-5 text-center 
+}
+.listContact{
+  @apply text-slate-400 mr-5 border-2 border-purple-500/100 p-1 lg:p-3 rounded-md hover:bg-purple-500 
+}
+@media only screen and (max-width:600px){
+  .list{
+    font-size:13px;
+    @apply mr-3
+  }
+  
+}

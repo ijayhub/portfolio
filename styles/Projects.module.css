@@ -1,0 +1,158 @@
+.projectContanier{
+    @apply mt-12 lg:mt-60 px-8
+}
+.numProject{
+    @apply text-purple-400
+}
+.titleProject{
+    @apply mb-2 text-slate-400 font-mono font-bold  lg:text-5xl capitalize
+}
+.smallText{
+    @apply  text-purple-500 font-mono font-bold capitalize lg:text-lg
+}
+.worksContainer{
+    @apply grid grid-cols-1 md:grid-cols-2 mb-12
+}
+.works{
+    @apply pt-6
+}
+.worksControl{
+    height:300px;
+    @apply mix-blend-plus-lighter 
+}
+.workProject{
+    @apply flex flex-col
+}
+.feature{
+    @apply  text-purple-400 text-end font-mono mb-2
+}
+.itemTitle{
+    @apply text-slate-400 lg:text-2xl capitalize text-end hover:text-purple-400 font-bold mt-4
+}
+.descContainer{
+    position:relative;
+}
+.descContainer1{
+    position:absolute;
+    left:-40px;
+    top:30px;
+}
+.desc{
+    background-color:peru;
+    @apply p-8 hover:text-purple-500 lg:text-lg font-bold
+}
+.github{
+    position:absolute;
+    top:170px;
+    right:-3px;
+}
+/* ..................2..................... */
+.numProject2{
+    @apply text-blue-500
+}
+.titleProject{
+    @apply mb-2 text-slate-400 font-mono font-bold  lg:text-5xl capitalize
+}
+.worksContainer2{
+    @apply grid grid-cols-1 md:grid-cols-2 mb-12
+}
+.works2{
+    @apply pt-6
+}
+.worksControl2{
+    height:300px;
+    @apply mix-blend-plus-lighter 
+}
+.workProject2{
+    @apply flex flex-col
+}
+.feature2{
+    @apply  text-blue-700 text-end font-mono mb-2
+}
+.itemTitle2{
+    @apply text-slate-400 lg:text-2xl capitalize text-end hover:text-blue-700 font-bold mt-4
+}
+.descContainer2{
+    position:relative;
+}
+.descContainer22{
+    position:absolute;
+    left:-40px;
+    top:30px;
+}
+.desc2{
+    background-color: blue;
+    @apply p-8 hover:text-purple-500 lg:text-lg font-bold
+}
+.github2{
+    position:absolute;
+    top:170px;
+    right:-4px;
+}
+/* ....................3....................... */
+.numProject3{
+    @apply text-red-500
+}
+.titleProject{
+    @apply mb-2 text-slate-400 font-mono font-bold  lg:text-5xl capitalize
+}
+.worksContainer3{
+    @apply grid grid-cols-1 md:grid-cols-2 
+}
+.works3{
+    @apply pt-6
+}
+.worksControl3{
+    height:300px;
+    @apply mix-blend-plus-lighter 
+}
+.workProject3{
+    @apply flex flex-col
+}
+.feature3{
+    @apply  text-red-700 text-end font-mono mb-2
+}
+.itemTitle3{
+    @apply text-slate-400 lg:text-2xl capitalize text-end hover:text-red-700 font-bold mt-4
+}
+.descContainer3{
+    position:relative;
+}
+.descContainer33{
+    position:absolute;
+    left:-40px;
+    top:30px;
+}
+.desc3{
+    background-color: red;
+    @apply p-8 hover:text-purple-500 lg:text-lg font-bold
+}
+.github3{
+    position:absolute;
+    top:170px;
+    right:-4px;
+}
+@media screen and (max-width:600px){
+    .desc{
+        display:none;
+    }
+    .github{
+        top:0;
+        @apply mt-5
+    }
+    .desc2{
+        display:none;
+    }
+    .github2{
+        top:0;
+        @apply mt-5
+    }
+    .desc3{
+        display:none;
+    }
+    .github3{
+        top:0;
+        @apply mt-5
+    }
+
+}
