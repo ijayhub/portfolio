@@ -19,8 +19,8 @@ const About = () => {
 					<div>
 						<p className={styles.aboutPara}>
 							Hi there! I am Ijeoma, and I love making stuff for the web. I
-							explored adding functionalities with{' '}
-							<span className={styles.span}>Javascript</span> improving
+							add functionalities with{' '}
+							<span className={styles.span}>Javascript</span>, improving
 							performance with<span className={styles.span}> React</span>. When
 							I am not coding, I enjoy cooking🧑🏽‍🍳 sometimes, listening to
 							music🎧, and watching funny movies🍿. I feel excitied when
