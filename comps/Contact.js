@@ -11,8 +11,7 @@ const Contact = () => {
 				<span className={styles.numContact}>04.</span> Get In Touch
 			</p>
 			<p className={styles.contactPara}>
-				I am currently looking out for opportunities to contribute and grow.
-				<br /> My inbox is always open! You can also reach me on{' '}
+				My inbox is always open! You can also reach me on{' '}
 				<Link
 					href='https://www.linkedin.com/in/ijeoma-igboagu/'
 					target='_blank'
