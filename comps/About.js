@@ -21,9 +21,7 @@ const About = () => {
 							Hi there! I am Ijeoma, and I love making stuff for the web. I
 							add functionalities with{' '}
 							<span className={styles.span}>Javascript</span>, improving
-							performance with<span className={styles.span}> React</span>. When
-							I am not coding, I enjoy cooking🧑🏽‍🍳 sometimes, listening to
-							music🎧, and watching funny movies🍿. I feel excitied when
+							performance with<span className={styles.span}> React</span>. I feel excitied when
 							I see my projects come to life and getting feedbacks.
 						</p>
 						<div className={styles.changeContainer}>
