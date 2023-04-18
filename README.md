@@ -38,7 +38,7 @@ This was coded and built by Ijeoma and this just a little visual representation 
 * [Repo Codes](https://github.com/ijayhub/portfolio)
 
 
-* [Hosted Link](https://portfolio-two-beta-53.vercel.app/)
+* [Hosted Link](https://portfolio-ijayhub.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

@@ -25,7 +25,7 @@ const About = () => {
 							combined with hands-on experience using popular frameworks like
 							<span className={styles.span}> React and Next </span>, has allowed
 							me to complete personal projects such as building a responsive
-							portfolio website and developing a web application using React. As
+              portfolio website and developing a web application using React.As
 							a developer, I value teamwork, communication, and continuous
 							learning.I feel excitied when I see my
 							projects come to life and getting feedbacks.
