@@ -14,7 +14,7 @@ const Projects = () => {
 	const ch = 'https://react-barchart-dashboard.netlify.app';
 	const chartRepo = 'https://github.com/ijayhub/React-Barchart-Dashboard-Overview';
 	return (
-		<section className={styles.projectContanier} id="works">
+		<section className={styles.projectContanier} id='works'>
 			<div>
 				<h2 className={styles.titleProject}>
 					<span className={styles.numProject}>02.</span> Works
@@ -60,8 +60,8 @@ const Projects = () => {
 					<div className={styles.descContainer2}>
 						<div className={styles.descContainer22}>
 							<p className={styles.desc2}>
-								Report web app is gives the report of covid-19 from other
-								countires.
+								This web application generates reports on COVID-19 from various
+								countries.
 							</p>
 						</div>
 						<p></p>
@@ -98,7 +98,6 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
-			
 		</section>
 	);
 };
