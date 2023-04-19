@@ -60,7 +60,7 @@ const Projects = () => {
 					<div className={styles.descContainer2}>
 						<div className={styles.descContainer22}>
 							<p className={styles.desc2}>
-								Report web app is gives the repot of covid-19 from other
+								Report web app is gives the report of covid-19 from other
 								countires.
 							</p>
 						</div>

@@ -23,11 +23,11 @@ const About = () => {
 							dedicated time to self-education and honing my skills. My
 							proficiency in <span className={styles.span}> HTML, CSS, and JavaScript </span>{' '}
 							combined with hands-on experience using popular frameworks like
-							<span className={styles.span}> React and Next </span>, has allowed
+							<span className={styles.span}> React.js and Next.js </span>, has allowed
 							me to complete personal projects such as building a responsive
-              portfolio website and developing a web application using React.As
-							a developer, I value teamwork, communication, and continuous
-							learning.I feel excitied when I see my
+              portfolio website and developing a web application. As
+							a developer, I value communication, and continuous
+							learning. I feel excitied when I see my
 							projects come to life and getting feedbacks.
 						</p>
 						<p></p>
