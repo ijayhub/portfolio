@@ -21,19 +21,20 @@ const About = () => {
 							I am Ijeoma, a front-end developer with a passion for creating
 							visually appealing and responsive user interfaces. I have
 							dedicated time to self-education and honing my skills. My
-							proficiency in <span className={styles.span}> HTML, CSS, and JavaScript </span>{' '}
+							proficiency in{' '}
+							<span className={styles.span}> HTML, CSS, and JavaScript </span>{' '}
 							combined with hands-on experience using popular frameworks like
-							<span className={styles.span}> React.js and Next.js </span>, has allowed
-							me to complete personal projects such as building a responsive
-              portfolio website and developing a web application. As
-							a developer, I value communication, and continuous
-							learning. I feel excitied when I see my
-							projects come to life and getting feedbacks.
+							<span className={styles.span}> React.js and Next.js </span>, has
+							allowed me to complete personal projects such as building a
+							responsive portfolio website and developing a web application. As
+							a developer, I value communication, and continuous learning. I
+							feel excitied when I see my projects come to life and getting
+							feedbacks.
 						</p>
 						<p></p>
 						<div className={styles.changeContainer}>
 							<a
-								href='https://drive.google.com/file/d/1drUzwqqCddx5BNJjbDB8RQcAFGH8m5d9/view?usp=share_link'
+								href='https://drive.google.com/file/d/14hldCrIzyDk3zVD7a10_Q8rgbUfUyW6U/view?usp=share_link'
 								target=' _blank'>
 								<button className={styles.change} onClick={handleClick}>
 									{hire}
