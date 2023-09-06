@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import book from '../public/google-book-apl.gif';
 import report from '../public/reportpic.png'
-import chart from '../public/chart.jpg'
+import telemedicine from '../public/telemedicine-website.png'
 
 
 const Projects = () => {
@@ -12,7 +12,7 @@ const Projects = () => {
 	const report1 = 'https://reports-web.netlify.app/';
 	const reportRepo = 'https://github.com/ijayhub/Report-web-app';
 	const ch = 'https://react-barchart-dashboard.netlify.app';
-	const chartRepo = 'https://github.com/ijayhub/React-Barchart-Dashboard-Overview';
+	const teleRepo = 'https://github.com/ijayhub/Telemedicine';
 	return (
 		<section className={styles.projectContanier} id='works'>
 			<div>
@@ -75,23 +75,26 @@ const Projects = () => {
 			</div>
 			<div className={styles.worksContainer3}>
 				<div className={styles.works3}>
-					<Image src={chart} alt='report' className={styles.worksControl} />
+					<Image
+						src={telemedicine}
+						alt='telemedicine'
+						className={styles.worksControl}
+					/>
 				</div>
 				<div className={styles.workProject3}>
 					<p className={styles.feature3}>Featured project</p>
 					<Link href={ch} target='_blank'>
-						<h3 className={styles.itemTitle}>
-							React Barchart Dashboard Overview
-						</h3>
+						<h3 className={styles.itemTitle}>telemedicine website</h3>
 					</Link>
 					<div className={styles.descContainer3}>
 						<div className={styles.descContainer33}>
 							<p className={styles.desc3}>
-								A dashboard displaying the 6-month progress of a random user
+								A telemedicine website is an online platform that facilitates
+								remote healthcare services.
 							</p>
 						</div>
 						<div className={styles.github3}>
-							<Link href={chartRepo} target='_blank' rel='noopener noreferrer'>
+							<Link href={teleRepo} target='_blank' rel='noopener noreferrer'>
 								<h3 className={styles.feature3}>Github</h3>
 							</Link>
 						</div>
