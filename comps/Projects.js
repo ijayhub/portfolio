@@ -55,16 +55,16 @@ const Projects = () => {
 				<div className={styles.workProject2}>
 					<p className={styles.feature2}>Featured project</p>
 					<Link href={mern} target='_blank'>
-						<h3 className={styles.itemTitle}>Reports-Web-App</h3>
+						<h3 className={styles.itemTitle}>CrMovie Application</h3>
 					</Link>
 					<div className={styles.descContainer2}>
 						<div className={styles.descContainer22}>
 							<p className={styles.desc2}>
-								This web application generates reports on COVID-19 from various
-								countries.
+								The project enables you to find your favourite movies
+								effortlessly with our user friendly application.curated a
+								wide selection across genres.
 							</p>
 						</div>
-						<p></p>
 						<div className={styles.github2}>
 							<Link href={mernRepo} target='_blank' rel='noopener noreferrer'>
 								<h3 className={styles.feature2}>Github</h3>
