@@ -2,16 +2,16 @@ import styles from '@/styles/Projects.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import book from '../public/google-book-apl.gif';
-import report from '../public/reportpic.png'
+import merncover from '../public/merncover.png'
 import telemedicine from '../public/telemedicine-website.png'
 
 
 const Projects = () => {
 	const bk = 'https://books-web-app.netlify.app/';
 	const bkRepo = 'https://github.com/ijayhub/Book-Web-App';
-	const report1 = 'https://reports-web.netlify.app/';
-	const reportRepo = 'https://github.com/ijayhub/Report-web-app';
-	const ch = 'https://react-barchart-dashboard.netlify.app';
+	const mern = 'https://frontend-crud-orcin.vercel.app/';
+	const mernRepo = 'https://github.com/ijayhub/Mern-project-final--tunga';
+	const telhost = 'https://telemedicine-psi.vercel.app/';
 	const teleRepo = 'https://github.com/ijayhub/Telemedicine';
 	return (
 		<section className={styles.projectContanier} id='works'>
@@ -50,11 +50,11 @@ const Projects = () => {
 			</div>
 			<div className={styles.worksContainer2}>
 				<div className={styles.works2}>
-					<Image src={report} alt='report' className={styles.worksControl} />
+					<Image src={merncover} alt='report' className={styles.worksControl} />
 				</div>
 				<div className={styles.workProject2}>
 					<p className={styles.feature2}>Featured project</p>
-					<Link href={report1} target='_blank'>
+					<Link href={mern} target='_blank'>
 						<h3 className={styles.itemTitle}>Reports-Web-App</h3>
 					</Link>
 					<div className={styles.descContainer2}>
@@ -66,7 +66,7 @@ const Projects = () => {
 						</div>
 						<p></p>
 						<div className={styles.github2}>
-							<Link href={reportRepo} target='_blank' rel='noopener noreferrer'>
+							<Link href={mernRepo} target='_blank' rel='noopener noreferrer'>
 								<h3 className={styles.feature2}>Github</h3>
 							</Link>
 						</div>
@@ -83,7 +83,7 @@ const Projects = () => {
 				</div>
 				<div className={styles.workProject3}>
 					<p className={styles.feature3}>Featured project</p>
-					<Link href={ch} target='_blank'>
+					<Link href={telhost} target='_blank'>
 						<h3 className={styles.itemTitle}>telemedicine website</h3>
 					</Link>
 					<div className={styles.descContainer3}>
