@@ -26,15 +26,15 @@ const About = () => {
 							combined with hands-on experience using popular frameworks like
 							<span className={styles.span}> React.js and Next.js </span>, has
 							allowed me to complete personal projects such as building a
-							responsive portfolio website and developing web applications. As
-							a developer, I value communication, and continuous learning. I
-							feel excitied when I see my projects come to life and getting
+							responsive portfolio website and developing web applications. As a
+							developer, I value communication, and continuous learning. I feel
+							excitied when I see my projects come to life and getting
 							feedbacks.
 						</p>
 						<p></p>
 						<div className={styles.changeContainer}>
 							<a
-								href='https://drive.google.com/file/d/14hldCrIzyDk3zVD7a10_Q8rgbUfUyW6U/view?usp=share_link'
+								href='https://drive.google.com/file/d/1glmgnqU3gP1QPLscfYJuOElfPS4amfua/view?usp=sharing'
 								target=' _blank'>
 								<button className={styles.change} onClick={handleClick}>
 									{hire}
