@@ -49,7 +49,7 @@ const Blogs = () => {
 										<BiLinkExternal />
 									</div>
 								</Link>
-								<Image src={article2} alt='article2' width={300} height={50} />
+								<Image src={article2} alt='article2' width={300} height={100} />
 								<h3 className={styles.blogTitle}>
 									Zustand vs useState – How to Manage State in React Apps
 								</h3>
@@ -57,9 +57,7 @@ const Blogs = () => {
 									State management in React applications has evolved a lot in
 									recent years.
 								</p>
-								<div className={styles.chart}>
-									<span className={styles.react}>React.js</span>
-								</div>
+							
 							</div>
 						</div>
 						<div>

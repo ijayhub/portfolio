@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
-import Navbar from '@/comps/Navbar'
+import Head from 'next/head';
+import styles from '@/styles/Home.module.css';
+import Navbar from '@/comps/Navbar';
 import Headings from '@/comps/Headings';
 import About from '@/comps/About';
 import Projects from '@/comps/Projects';
@@ -15,7 +14,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Portfolio</title>
-				<meta name='description' content=' Portfolio generated using Next.js' />
+				<meta name='description' content='Portfolio generated using Next.js' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
@@ -26,10 +25,8 @@ export default function Home() {
 				<Projects />
 				<Blogs />
 				<Contact />
-				<a href='#'>
-					<div className='flex justify-end items-end mr-8'>
-						<BsFillArrowUpSquareFill className='text-blue-900 text-2xl lg:text-3xl mb-4 lg:mb-0' />
-					</div>
+				<a href='#top' className='fixed bottom-4 right-4'>
+					<BsFillArrowUpSquareFill className='text-blue-900 text-2xl lg:text-3xl mb-4 lg:mb-0' />
 				</a>
 			</main>
 			<Footer />
