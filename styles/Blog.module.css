@@ -14,7 +14,7 @@
 
 .blogCard{
     background-color: #112340;
-    height:240px;
+    height:400px;
     @apply shadow-2xl rounded-xl p-6 w-full
 
 }

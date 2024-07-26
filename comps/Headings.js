@@ -41,7 +41,7 @@ const Headings = () => {
 				<div className={styles.para}>
 					<Typewriter
 						options={{
-							strings: ['front-end developer', 'tech writer'],
+							strings: ['Software Developer', 'tech writer'],
 							autoStart: true,
 							loop: true,
 						}}

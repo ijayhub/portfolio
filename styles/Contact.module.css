@@ -16,12 +16,32 @@
 .contactLink{
     @apply text-purple-500 hover:text-slate-200
 }
+.contactForm{
+    @apply flex flex-col 
+}
+.contactlabel{
+    @apply text-slate-200 mt-3
+}
 .contactBtn{
     @apply flex justify-center items-center border-2 border-purple-500 mt-6 mb-4 px-3 py-1 text-slate-400 rounded-xl font-mono 
 }
 .btnContact{
-    @apply border-2 border-purple-500  
+    @apply bg-purple-500 text-slate-200 mt-4 p-2 rounded-lg text-center
 
+}
+.contactInput{
+    @apply p-1 rounded-lg border-2 border-white outline-none mt-3;
+    width: 600px;
+}
+.contactInput2{
+    @apply p-1 rounded-lg border-2 border-white outline-none mt-3 resize-none;
+    width: 600px;
+}
+.formContainer{
+    @apply flex-col
+}
+.btncontainer{
+    @apply flex justify-center items-center
 }
 /* ....................................footer.......................... */
 .footer{
@@ -33,11 +53,15 @@
 .footerLink{
     @apply bg-transparent
 }
-    @media only screen and (max-width:600px){
-        .footerPara{
-            font-size:12px;
-        }
-        .contactPara{
-            font-size: 15px;
-        }
+@media only screen and (max-width:600px){
+    .footerPara{
+        font-size:12px;
     }
+    .contactPara{
+        font-size: 15px;
+    }
+        .contactInput, .contactInput2{
+        width: 300px;
+    }
+}
+

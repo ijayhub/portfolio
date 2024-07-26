@@ -1,11 +1,15 @@
 import styles from '@/styles/Blog.module.css';
+import Image from 'next/image';
 import Link from 'next/link';
 import { BiLinkExternal } from 'react-icons/bi';
+import article1 from "../public/1.png"
+import article2 from '../public/2.png';
+import article3 from '../public/3.png';
 
 const Blogs = () => {
 	return (
 		<div>
-			<div className={styles.sectionBlog} id="blogs">
+			<div className={styles.sectionBlog} id='blogs'>
 				<div>
 					<h2 className={styles.blogHeading}>Other noteworthy projects</h2>
 					<Link href='https://ijaycent.hashnode.dev' target='_blank'>
@@ -14,41 +18,44 @@ const Blogs = () => {
 					<div className={styles.blogContainer}>
 						<div className={styles.blogCard}>
 							<Link
-								href='https://ijaycent.hashnode.dev/how-to-use-chartjs-to-create-a-chart-for-your-project'
+								href='https://www.freecodecamp.org/news/how-to-fetch-api-data-in-react/'
 								target='_blank'
 								rel='noopener'>
 								<div className={styles.blogLink}>
 									<BiLinkExternal />
 								</div>
 							</Link>
+							<Image src={article1} alt='article1' width={300} height={100} />
+
 							<h3 className={styles.blogTitle}>
-								How to use Chart.js to create a Chart for Your Project
+								How To Fetch API Data In React
 							</h3>
 							<p className={styles.blogParas}>
-								Data visualization is a powerful tool for interpreting large and
-								complex data sets
+								When developing applications, you often need to get data from an
+								API.
 							</p>
 							<div className={styles.chart}>
 								<span className={styles.react}>React.js</span>
-								<span className={styles.react}>chart.js</span>
+								<span className={styles.react}>API</span>
 							</div>
 						</div>
 						<div>
 							<div className={styles.blogCard}>
 								<Link
-									href='https://ijaycent.hashnode.dev/creating-a-menu-using-reactjs'
+									href='https://www.freecodecamp.org/news/zustand-vs-usestate-how-to-manage-state-in-react/'
 									target='_blank'
 									rel='noopener'>
 									<div className={styles.blogLink}>
 										<BiLinkExternal />
 									</div>
 								</Link>
+								<Image src={article2} alt='article2' width={300} height={50} />
 								<h3 className={styles.blogTitle}>
-									Creating a Menu using React.js
+									Zustand vs useState – How to Manage State in React Apps
 								</h3>
 								<p className={styles.blogParas}>
-									Menus are an essential tool for helping customers decide what
-									to order
+									State management in React applications has evolved a lot in
+									recent years.
 								</p>
 								<div className={styles.chart}>
 									<span className={styles.react}>React.js</span>
@@ -58,19 +65,22 @@ const Blogs = () => {
 						<div>
 							<div className={styles.blogCard}>
 								<Link
-									href='https://ijaycent.hashnode.dev/al-assistants-that-help-your-productivity-besides-chatgpt'
+									href='https://www.freecodecamp.org/news/ai-tools-to-use-in-vs-code/'
 									target='_blank'
 									rel='noopener'>
 									<div className={styles.blogLink}>
 										<BiLinkExternal />
 									</div>
 								</Link>
+
+								<Image src={article3} alt='article3' width={300} height={100} />
 								<h3 className={styles.blogTitle}>
-									Al Assistants That Help Your Productivity (Besides ChatGPT)
+									AI Tools You Can Use in Visual Studio Code Besides GitHub
+									Copilot
 								</h3>
 								<p className={styles.blogParas}>
-									AI assistants are specialized artificial intelligence software
-									programs designed to imitate human behavior and thinking.
+									AI tools have become quite popular recently. Developers use
+									these tools to help generate ideas and create simple code.
 								</p>
 							</div>
 						</div>

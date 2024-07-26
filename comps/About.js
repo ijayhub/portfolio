@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ijay from '../public/ijay.png'
+import ij from "../public/ij.jpg"
 import styles from '@/styles/About.module.css';
 import { useState } from "react";
 
@@ -18,15 +18,8 @@ const About = () => {
 				<div className={styles.aboutSection}>
 					<div>
 						<p className={styles.aboutPara}>
-							I am Ijeoma, a front-end developer with a passion for creating
-							visually appealing and responsive user interfaces. I have
-							dedicated time to self-education and honing my skills. My
-							proficiency in{' '}
-							<span className={styles.span}> HTML, CSS, and JavaScript </span>{' '}
-							combined with hands-on experience using popular frameworks like
-							<span className={styles.span}> React.js and Next.js </span>, has
-							allowed me to complete personal projects such as building a
-							responsive portfolio website and developing web applications. As a
+							I am Ijeoma, a software developer with a passion for creating
+							visually appealing and responsive user interfaces. As a
 							developer, I value communication, and continuous learning. I feel
 							excitied when I see my projects come to life and getting
 							feedbacks.
@@ -34,7 +27,7 @@ const About = () => {
 						<p></p>
 						<div className={styles.changeContainer}>
 							<a
-								href='https://drive.google.com/file/d/1glmgnqU3gP1QPLscfYJuOElfPS4amfua/view?usp=sharing'
+								href='https://drive.google.com/file/d/1UDxfCzibjfSD9M0-QIXxfUgWI5D6Vel_/view?usp=sharing'
 								target=' _blank'>
 								<button className={styles.change} onClick={handleClick}>
 									{hire}
@@ -44,7 +37,7 @@ const About = () => {
 					</div>
 					<div className={styles.imgContainer}>
 						<div className={styles.img}>
-							<Image src={ijay} alt='pic' className={styles.imgControl} />
+							<Image src={ij} alt='pic' className={styles.imgControl} />
 						</div>
 					</div>
 				</div>
