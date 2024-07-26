@@ -1,0 +1,21 @@
+.experience{
+  @apply mt-16
+}
+.numContact{
+    @apply text-purple-500
+}
+.contactText{
+    @apply lg:text-4xl text-purple-500 font-bold capitalize text-center
+}
+.timeicon{
+  @apply text-white;
+}
+.timeframe{
+  @apply text-slate-200;
+}
+.timetitle{
+  @apply text-emerald-400 text-2xl
+}
+.timelist{
+  @apply text-purple-500
+}

@@ -8,7 +8,7 @@ const Contact = () => {
 		<div className={styles.contactContainer} id="contact">
 			<h3 className={styles.contactHead}> What Next?</h3>
 			<p className={styles.contactText}>
-				<span className={styles.numContact}>04.</span> Get In Touch
+				<span className={styles.numContact}>05.</span> Get In Touch
 			</p>
 			<p className={styles.contactPara}>My inbox is always open! </p>
 			<div>

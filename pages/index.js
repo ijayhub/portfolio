@@ -5,7 +5,7 @@ import Headings from '@/comps/Headings';
 import About from '@/comps/About';
 import Projects from '@/comps/Projects';
 import Blogs from '@/comps/Blogs';
-import Experience from '@/comps/Experiuence';
+import Experience from '@/comps/Experiences';
 import Contact from '@/comps/Contact';
 import Footer from '@/comps/Footer';
 import { BsFillArrowUpSquareFill } from 'react-icons/bs';

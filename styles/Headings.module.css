@@ -1,28 +1,35 @@
+.devHeading {
+    @apply text-purple-500 lg:text-2xl flex items-center;
+}
 
-.devHeading{
-  @apply text-purple-500 lg:text-2xl flex items-center
+.devPara {
+    @apply text-slate-500 mb-2 text-lg;
 }
-.devPara{
-  @apply text-slate-500 mb-2 text-lg
+
+.title {
+    @apply mt-16 lg:mt-32 font-bold pl-7 lg:pl-0;
 }
-.title{
-  @apply mt-16 lg:mt-32 font-bold pl-7 lg:pl-0
+
+.heroText1 {
+    @apply text-purple-500 lg:text-2xl;
 }
-.heroText1{
-  @apply text-purple-500  lg:text-2xl
+
+.name {
+    @apply text-white lg:text-6xl;
 }
-.name{
-  @apply text-white lg:text-6xl 
+
+.para {
+    @apply text-slate-400 mt-4 lg:text-3xl capitalize;
 }
-.para{
-  @apply text-slate-400 mt-4 lg:text-3xl capitalize
+
+.btn {
+    @apply border-2 border-purple-500 text-slate-400 p-2 rounded-md mt-4 font-mono font-bold;
 }
-.btn{
-  @apply border-2 border-purple-500 text-slate-400 p-2 rounded-md mt-4 font-mono font-bold
+
+.social {
+    @apply flex items-center mt-3;
 }
-.social{
-  @apply flex items-center mt-3
-}
-.link{
-  @apply mr-3
+
+.link {
+    @apply mr-3;
 }
