@@ -6,6 +6,7 @@ import merncover from '../public/merncover.png'
 import telemedicine from '../public/telemedicine-website.png'
 
 
+
 const Projects = () => {
 	const bk = 'https://books-web-app.netlify.app/';
 	const bkRepo = 'https://github.com/ijayhub/Book-Web-App';
@@ -61,8 +62,8 @@ const Projects = () => {
 						<div className={styles.descContainer22}>
 							<p className={styles.desc2}>
 								The project enables you to find your favourite movies
-								effortlessly with our user friendly application.curated a
-								wide selection across genres.
+								effortlessly with our user friendly application.curated a wide
+								selection across genres.
 							</p>
 						</div>
 						<div className={styles.github2}>
@@ -100,6 +101,13 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
+			</div>
+			<div className={styles.btnBlog}>
+				<Link
+					href='https://github.com/ijayhub'
+					className={styles.btnBrowse}>
+					Browse All
+				</Link>
 			</div>
 		</section>
 	);

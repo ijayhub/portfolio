@@ -5,6 +5,7 @@ import Headings from '@/comps/Headings';
 import About from '@/comps/About';
 import Projects from '@/comps/Projects';
 import Blogs from '@/comps/Blogs';
+import Experience from '@/comps/Experiuence';
 import Contact from '@/comps/Contact';
 import Footer from '@/comps/Footer';
 import { BsFillArrowUpSquareFill } from 'react-icons/bs';
@@ -24,6 +25,7 @@ export default function Home() {
 				<About />
 				<Projects />
 				<Blogs />
+				<Experience />
 				<Contact />
 				<a href='#top' className='fixed bottom-4 right-4'>
 					<BsFillArrowUpSquareFill className='text-blue-900 text-2xl lg:text-3xl mb-4 lg:mb-0' />

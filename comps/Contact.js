@@ -5,7 +5,7 @@ import styles from '@/styles/Contact.module.css';
 const Contact = () => {
 	
 	return (
-		<div className={styles.contactContainer}>
+		<div className={styles.contactContainer} id="contact">
 			<h3 className={styles.contactHead}> What Next?</h3>
 			<p className={styles.contactText}>
 				<span className={styles.numContact}>04.</span> Get In Touch
