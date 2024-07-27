@@ -9,7 +9,9 @@ import article3 from '../public/3.png';
 const Blogs = () => {
 	return (
 		<div className={styles.sectionBlog} id='blogs'>
-			<h2 className={styles.blogHeading}>Other noteworthy projects</h2>
+			<h2 className={styles.blogHeading}>
+				<span className={styles.numProject}>04.</span> Other Noteworthy Projects
+			</h2>
 			<Link href='https://ijaycent.hashnode.dev' target='_blank'>
 				<p className={styles.blogPara}>view the archive</p>
 			</Link>

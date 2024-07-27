@@ -1,8 +1,8 @@
 .experience{
-  @apply mt-16
+  @apply mt-32
 }
 .numContact{
-    @apply text-purple-500
+    @apply text-purple-500 
 }
 .contactText{
     @apply lg:text-4xl text-purple-500 font-bold capitalize text-center

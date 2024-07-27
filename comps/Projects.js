@@ -18,7 +18,7 @@ const Projects = () => {
 		<section className={styles.projectContanier} id='works'>
 			<div>
 				<h2 className={styles.titleProject}>
-					<span className={styles.numProject}>02.</span> Works
+					<span className={styles.numProject}>03.</span> Works
 				</h2>
 				<small className={styles.smallText}>
 					Some projects I haved worked on to back up my claims.

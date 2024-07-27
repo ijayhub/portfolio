@@ -26,9 +26,9 @@ export default function Home() {
 			<main className={styles.main}>
 				<Headings />
 				<About />
+				<Experience />
 				<Projects />
 				<Blogs />
-				<Experience />
 				<Contact />
 				<a href='#top' className='fixed bottom-4 right-4'>
 					<BsFillArrowUpSquareFill className='text-blue-900 text-2xl lg:text-3xl mb-4 lg:mb-0' />

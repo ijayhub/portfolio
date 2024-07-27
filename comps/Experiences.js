@@ -6,7 +6,7 @@ export default function Component() {
 	return (
 		<section className={styles.experience}>
 			<p className={styles.contactText}>
-				<span className={styles.numContact}>04.</span> Experience
+				<span className={styles.numContact}>02.</span> Experience
 			</p>
 			<Timeline>
 				<Timeline.Item>
