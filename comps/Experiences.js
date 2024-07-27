@@ -4,7 +4,7 @@ import styles from '@/styles/Experience.module.css';
 
 export default function Component() {
 	return (
-		<section className={styles.experience}>
+		<section className={styles.experience} id="experience">
 			<p className={styles.contactText}>
 				<span className={styles.numContact}>02.</span> Experience
 			</p>
