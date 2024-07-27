@@ -15,7 +15,10 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Portfolio</title>
-				<meta name='description' content='Portfolio generated using Next.js' />
+				<meta
+					name='description'
+					content='Portfolio for Ijeoma Igboagu generated using Next.js'
+				/>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
