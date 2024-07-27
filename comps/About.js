@@ -26,7 +26,7 @@ const About = () => {
 					</p>
 					<div className={styles.changeContainer}>
 						<a
-							href='https://drive.google.com/file/d/1UDxfCzibjfSD9M0-QIXxfUgWI5D6Vel_/view?usp=sharing'
+							href='https://drive.google.com/file/d/1Zv1p07NkkNfWbsFSq1_6yE2wHfW4UKC5/view?usp=sharing'
 							target='_blank'
 							rel='noopener noreferrer'>
 							<button className={styles.change} onClick={handleClick}>
