@@ -1,7 +1,7 @@
 import styles from '@/styles/Projects.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import book from '../public/google-book-apl.gif';
+import book from '../public/book.png';
 import merncover from '../public/merncover.png'
 import telemedicine from '../public/telemedicine-website.png'
 
