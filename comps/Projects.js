@@ -2,15 +2,15 @@ import styles from '@/styles/Projects.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import book from '../public/google-book-apl.gif';
-import merncover from '../public/merncover.png'
+import hs from '../public/healthsmart.jpg'
 import telemedicine from '../public/telemedicine-website.png'
 
 
 const Projects = () => {
 	const bk = 'https://books-web-app.netlify.app/';
 	const bkRepo = 'https://github.com/ijayhub/Book-Web-App';
-	const mern = 'https://frontend-crud-orcin.vercel.app/';
-	const mernRepo = 'https://github.com/ijayhub/Mern-project-final--tunga';
+	const healthsmart = 'https://health-smart.vercel.app/';
+	const hsRepo = 'https://github.com/donkachii/health-smart';
 	const telhost = 'https://telemedicine-psi.vercel.app/';
 	const teleRepo = 'https://github.com/ijayhub/Telemedicine';
 	return (
@@ -50,23 +50,23 @@ const Projects = () => {
 			</div>
 			<div className={styles.worksContainer2}>
 				<div className={styles.works2}>
-					<Image src={merncover} alt='report' className={styles.worksControl} />
+					<Image src={hs} alt='report' className={styles.worksControl} />
 				</div>
 				<div className={styles.workProject2}>
 					<p className={styles.feature2}>Featured project</p>
-					<Link href={mern} target='_blank'>
-						<h3 className={styles.itemTitle}>CrMovie Application</h3>
+					<Link href={healthsmart} target='_blank'>
+						<h3 className={styles.itemTitle}>HealthSmart</h3>
 					</Link>
 					<div className={styles.descContainer2}>
 						<div className={styles.descContainer22}>
 							<p className={styles.desc2}>
-								The project enables you to find your favourite movies
-								effortlessly with our user friendly application.curated a
-								wide selection across genres.
+								HealthSmart is an innovative flashcard SaaS designed to enhance
+								your learning experience. Built with Next.js, Firebase, OpenAI,
+								and Stripe.
 							</p>
 						</div>
 						<div className={styles.github2}>
-							<Link href={mernRepo} target='_blank' rel='noopener noreferrer'>
+							<Link href={hsRepo} target='_blank' rel='noopener noreferrer'>
 								<h3 className={styles.feature2}>Github</h3>
 							</Link>
 						</div>

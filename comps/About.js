@@ -18,18 +18,8 @@ const About = () => {
 				<div className={styles.aboutSection}>
 					<div>
 						<p className={styles.aboutPara}>
-							I am Ijeoma, a front-end developer with a passion for creating
-							visually appealing and responsive user interfaces. I have
-							dedicated time to self-education and honing my skills. My
-							proficiency in{' '}
-							<span className={styles.span}> HTML, CSS, and JavaScript </span>{' '}
-							combined with hands-on experience using popular frameworks like
-							<span className={styles.span}> React.js and Next.js </span>, has
-							allowed me to complete personal projects such as building a
-							responsive portfolio website and developing web applications. As a
-							developer, I value communication, and continuous learning. I feel
-							excitied when I see my projects come to life and getting
-							feedbacks.
+							Hi I am  Ijeoma, a software developer passionate about React.js and making tech
+							concepts easy to understand.
 						</p>
 						<p></p>
 						<div className={styles.changeContainer}>
