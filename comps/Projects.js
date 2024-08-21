@@ -6,6 +6,8 @@ import hs from '../public/healthsmart.jpg'
 import telemedicine from '../public/telemedicine-website.png'
 
 
+
+
 const Projects = () => {
 	const bk = 'https://books-web-app.netlify.app/';
 	const bkRepo = 'https://github.com/ijayhub/Book-Web-App';
@@ -17,7 +19,7 @@ const Projects = () => {
 		<section className={styles.projectContanier} id='works'>
 			<div>
 				<h2 className={styles.titleProject}>
-					<span className={styles.numProject}>02.</span> Works
+					<span className={styles.numProject}>03.</span> Works
 				</h2>
 				<small className={styles.smallText}>
 					Some projects I haved worked on to back up my claims.
@@ -100,6 +102,13 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
+			</div>
+			<div className={styles.btnBlog}>
+				<Link
+					href='https://github.com/ijayhub'
+					className={styles.btnBrowse}>
+					Browse All
+				</Link>
 			</div>
 		</section>
 	);
