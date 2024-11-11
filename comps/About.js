@@ -29,7 +29,7 @@ const About = () => {
 					</p>
 					<div className={styles.changeContainer}>
 						<a
-							href='https://drive.google.com/file/d/1B67NPPwmF9MHozHS-knvN-UM_I8x4Vyc/view?usp=sharing'
+							href='https://drive.google.com/file/d/10D4Dh8GE8Q_oouRfTvTBZ-VLQ5fkX-3q/view?usp=sharing'
 							target='_blank'
 							rel='noopener noreferrer'>
 							<button className={styles.change} onClick={handleClick}>
